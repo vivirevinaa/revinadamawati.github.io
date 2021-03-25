@@ -227,7 +227,8 @@ img{
     display: flex;
 }
 .about__img img{
-    width: 100px;
+    width: 50px;
+    height: 230px;
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
@@ -360,6 +361,7 @@ img{
     font-size: var(--normal-font-size);
     color: var(--white-color);
     margin-bottom: var(--mb-2);
+    justify-items: center;
 }
 .footer__link{
     padding: .25rem 0;
